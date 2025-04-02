@@ -12,8 +12,7 @@
     </AvaloniaResource>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Avalonia" Version="11.2.2" />
-    <PackageReference Include="Avalonia.Xaml.Interactions.Draggable" Version="11.2.0.1" />
+    <PackageReference Include="Avalonia.Xaml.Interactions.Draggable" Version="11.2.0.14" />
   </ItemGroup>
 	<Import Project="..\..\build\version.props" />
 </Project>
