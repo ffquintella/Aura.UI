@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-		<TargetFrameworks>net10.0;netstandard2.1</TargetFrameworks>
+		<TargetFramework>net10.0</TargetFramework>
 		<Description>Control's Library for Avalonia.</Description>	  
 		<PackageIcon>AuraUILogo_full_icon.png</PackageIcon>
 		<GenerateAssemblyInfo>true</GenerateAssemblyInfo>
@@ -19,15 +19,12 @@
 	<Import Project="..\..\build\version.props" />
 	<ItemGroup>
 	  <PackageReference Include="AuraUtilities" Version="0.1.5.5" />
-	  <PackageReference Include="Avalonia" Version="11.3.11" />
-	  <PackageReference Include="Avalonia.Desktop" Version="11.3.11" />
-	  <PackageReference Include="Avalonia.Diagnostics" Version="11.3.11" />
-	  <PackageReference Include="Avalonia.Markup.Xaml.Loader" Version="11.3.11" />
-	  <PackageReference Include="ReactiveUI" Version="22.3.1" />
-	  <PackageReference Include="ReactiveUI.Avalonia" Version="11.3.8" />
-	  <PackageReference Include="Avalonia.Xaml.Behaviors" Version="11.2.0.14" />
-	  <PackageReference Include="Avalonia.Xaml.Interactivity" Version="11.2.0.14" />
+	  <PackageReference Include="Avalonia" Version="12.0.1" />
+	  <PackageReference Include="Avalonia.Desktop" Version="12.0.1" />
+	  <PackageReference Include="Avalonia.Markup.Xaml.Loader" Version="12.0.1" />
+	  <PackageReference Include="ReactiveUI" Version="23.2.1" />
+	  <PackageReference Include="ReactiveUI.Avalonia" Version="12.0.1" />
 	  <PackageReference Include="System.Reactive" Version="6.1.0" />
-	  <PackageReference Include="System.Text.Json" Version="10.0.2" />
+	  <PackageReference Include="System.Text.Json" Version="10.0.7" />
 	</ItemGroup>
 </Project>

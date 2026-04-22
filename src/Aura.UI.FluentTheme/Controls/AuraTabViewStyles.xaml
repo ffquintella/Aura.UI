@@ -152,7 +152,7 @@
 							  <ContentPresenter Name="PART_FallBackContent"
 												Content="{TemplateBinding FallBackContent}"/>
 						  <ContentPresenter Name="PART_SelectedContentHost"
-									Background="{Binding $parent[AuraTabView].SelectedItem.Background}"
+									Background="{TemplateBinding Background}"
 									Padding="{TemplateBinding Padding}"
 									Height="{Binding #PART_GridHost.Height}"
 									HorizontalContentAlignment="{TemplateBinding HorizontalContentAlignment}"
@@ -264,7 +264,7 @@
 						<ContentPresenter Name="PART_FallBackContent"
 									Content="{TemplateBinding FallBackContent}"/>
 						 <ContentPresenter Name="PART_SelectedContentHost"
-									Background="{Binding $parent[AuraTabView].SelectedItem.Background}"
+									Background="{TemplateBinding Background}"
 									Padding="{TemplateBinding Padding}"
 									Height="{Binding #PART_GridHost.Height}"
 									Width="{TemplateBinding Width}"
@@ -372,7 +372,7 @@
 							  <ContentPresenter Name="PART_FallBackContent"
 												Content="{TemplateBinding FallBackContent}"/>
 								<ContentPresenter Name="PART_SelectedContentHost"
-										  Background="{Binding $parent[AuraTabView].SelectedItem.Background}"
+										  Background="{TemplateBinding Background}"
 										  Padding="{TemplateBinding Padding}"
 										  Height="{TemplateBinding Height}"
 										  Width="{Binding #PART_GridHost.Width}"
@@ -478,7 +478,7 @@
 								<ContentPresenter Name="PART_FallBackContent"
 												Content="{TemplateBinding FallBackContent}"/>
 								<ContentPresenter Name="PART_SelectedContentHost"
-										  Background="{Binding $parent[AuraTabView].SelectedItem.Background}"
+										  Background="{TemplateBinding Background}"
 										  Padding="{TemplateBinding Padding}"
 										  Height="{TemplateBinding Height}"
 										  Width="{Binding #PART_GridHost.Width}"

@@ -95,7 +95,7 @@
 										</Border.Transitions>
 										<ContentPresenter Name="PART_ContentPresenter"
 										                  Content="{TemplateBinding Header}"
-                                      ContentTemplate="{Binding $parent[NavigationView].HeaderTemplate}"/>
+/>
 									</Border>
 								<ToggleButton Grid.Column="3"
 									              Grid.Row="1"
@@ -149,7 +149,7 @@
   </Style>
   
 	<Style Selector=":is(NavigationViewItemBase) /template/ Grid#PART_InternalGrid">
-		<Setter Property="Margin" Value="{Binding $parent[NavigationView].NavigationViewDistance, Mode=OneWay, Converter={StaticResource LevelConv}}"/>
+		<Setter Property="Margin" Value="{Binding $parent[NavigationViewItemBase].NavigationViewDistance, Mode=OneWay, Converter={StaticResource LevelConv}}"/>
 	</Style>	
 	<Style Selector=":is(NavigationViewItemBase).header /template/ Grid#PART_InternalGrid">
 		<Setter Property="Margin" Value="0"/>
@@ -190,7 +190,7 @@
 		<Style.Animations>
 			<Animation Duration="0:0:0.3" FillMode="Forward" Easing="CubicEaseOut">
 				<KeyFrame Cue="0%">
-					<Setter Property="TranslateTransform.Y" Value="{Binding $parent.Bounds.Height}" />
+					<Setter Property="TranslateTransform.Y" Value="{Binding $parent[ItemsPresenter].Bounds.Height}" />
 				</KeyFrame>
 				<KeyFrame Cue="100%">
 					<Setter Property="TranslateTransform.Y" Value="0" />
