@@ -23,8 +23,6 @@
 	  <PackageReference Include="Avalonia.Desktop" Version="12.0.1" />
 	  <PackageReference Include="Avalonia.Markup.Xaml.Loader" Version="12.0.1" />
 	  <PackageReference Include="ReactiveUI" Version="23.2.1" />
-	  <PackageReference Include="ReactiveUI.Avalonia" Version="12.0.1" />
-	  <PackageReference Include="System.Reactive" Version="6.1.0" />
-	  <PackageReference Include="System.Text.Json" Version="10.0.7" />
+	  <PackageReference Include="ReactiveUI.Avalonia" Version="12.0.1" />	  <PackageReference Include="System.Reactive" Version="6.1.0" />
 	</ItemGroup>
 </Project>
