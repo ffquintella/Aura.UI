@@ -33,7 +33,9 @@ namespace Aura.UI.Controls
         {
             if (Source is not null)
             {
-                Source.Save(stream);
+                // Avalonia 12.1 deprecated Save(Stream, int?); PngBitmapEncoderOptions.Default
+                // is the exact equivalent of the previous parameterless default.
+                Source.Save(stream, PngBitmapEncoderOptions.Default);
             }
         }
 
